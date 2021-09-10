@@ -6,7 +6,7 @@ import 'package:flutter_base/res/constant.dart';
 /// 输出Log工具类
 class Log {
 
-  static const String tag = 'DEER-LOG';
+  static const String tag = 'Base-LOG';
   
   static void init() {
     LogUtil.init(isDebug: !Constant.inProduction);
